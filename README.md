@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Elgeladon_REACT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://user-images.githubusercontent.com/95880342/166344918-127751b0-fc45-4018-9737-d447d1a1a318.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+###
+## Frontend ReactJS (Home, Read All, Read By Id)
+###
 
-### `npm start`
+### Tópicos 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Descrição do projeto](#descrição-do-projeto)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Critérios](#critérios)
 
-### `npm test`
+- [Ferramentas utilizadas](#ferramentas-utilizadas)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Acesso ao projeto](#acesso-ao-projeto)
 
-### `npm run build`
+- [Abrir e rodar o projeto](#abrir-e-rodar-o-projeto)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Desenvolvedor](#desenvolvedor)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Descrição do projeto 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="justify">
+  
+ Entrega 1 - Frontend ReactJS (Home, Read All, Read By Id)
+  
+## Critérios
+  
+ :heavy_check_mark: `Endpoints 1:` Lista de objetos em memória
+  ###
+   :heavy_check_mark: `Endpoints 2:` Formatação do código utilizando o Prettier
+  ###
+   :heavy_check_mark: `Endpoints 3:` Utilização do useState
+  ###
+   :heavy_check_mark: `Endpoints 4:` Criação correta do componente Home.js
+  ###
+   :heavy_check_mark: `Endpoints 5:` Frontend Vanilla com os recursos
+  ###
 
-### `npm run eject`
+## Ferramentas utilizadas
+ 
+<img src="https://user-images.githubusercontent.com/95880342/157155360-d28b477f-156c-4d83-95b4-69799e74e512.png" alt="html" width="60"/> <img src="https://user-images.githubusercontent.com/95880342/157156290-4a862097-4109-42f8-b59c-9ce7d0c80849.png" alt="css" width="60"/> <img src="https://img.icons8.com/color/344/nodejs.png" alt="css" width="60"/> <img src="https://img.icons8.com/color/344/javascript--v1.png" alt="css" width="60"/>  <img src="https://img.icons8.com/color/344/react-native.png" alt="css" width="60"/>
+  
+###
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Acesso ao projeto
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Antes de começar você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com/), [NodeJS](https://nodejs.org/en/).
+Além disto é bom ter um editor para trabalhar com o código como [VScode](https://code.visualstudio.com/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Está tudo pronto agora... é só baixar o arquivo e executar. Você pode [acessar o código fonte do projeto](https://github.com/DevFernandoNunes/Projeto-Frontend-Elgeladon)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Abrir e rodar o projeto
 
-## Learn More
+```bash
+ 
+#Clone estesrepositórios
+$ git clone <https://github.com/DevFernandoNunes/Projeto-Frontend-Elgeladon.git>
+$ git clone <https://github.com/DevFernandoNunes/Projeto-API-Elgeladon.git>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#Abra a pasta Projeto-API-Elgeladon e abra o terminal e de o seguinte comando:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+$ npm i
+#Instalará todas as depedências necessárias para rodar o backend
+  
+$ npm run dev
+# Iniciará o servidor 
 
-### Code Splitting
+#Abra o arquivo index.html que está na raiz da pasta principal do projeto Projeto-Frontend-Elgeladon.
+ 
+``` 
+ 
+## Desenvolvedor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| [<img src="https://avatars.githubusercontent.com/u/95880342?v=4" width=115><br><sub>Fernando Nunes</sub>](https://github.com/DevFernandoNunes) |
+| :---: |
+ 
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
