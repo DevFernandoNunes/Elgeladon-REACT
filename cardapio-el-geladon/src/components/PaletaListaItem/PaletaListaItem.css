@@ -34,7 +34,7 @@
   }
   
   .PaletaListaItem__preco {
-    color: darkviolet;
+    color: #001686;
   }
   
   .Acoes {
@@ -62,7 +62,7 @@
   }
   
   .Acoes__adicionar {
-    background-color: darkviolet;
+    background-color: #001686;
   }
   
   .Acoes__adicionar--preencher {
