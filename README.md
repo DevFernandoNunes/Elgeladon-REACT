@@ -52,25 +52,22 @@ Antes de começar você vai precisar ter instalado em sua máquina as seguintes 
 [Git](https://git-scm.com/), [NodeJS](https://nodejs.org/en/).
 Além disto é bom ter um editor para trabalhar com o código como [VScode](https://code.visualstudio.com/).
 
-Está tudo pronto agora... é só baixar o arquivo e executar. Você pode [acessar o código fonte do projeto](https://github.com/DevFernandoNunes/Projeto-Frontend-Elgeladon)
+Está tudo pronto agora... é só baixar o arquivo e executar. Você pode [acessar o código fonte do projeto](https://github.com/DevFernandoNunes/Elgeladon_REACT)
 
 ## Abrir e rodar o projeto
 
 ```bash
  
-#Clone estesrepositórios
-$ git clone <https://github.com/DevFernandoNunes/Projeto-Frontend-Elgeladon.git>
-$ git clone <https://github.com/DevFernandoNunes/Projeto-API-Elgeladon.git>
+#Clone estes repositórios
+$ git clone <https://github.com/DevFernandoNunes/Elgeladon_REACT.git>
 
-#Abra a pasta Projeto-API-Elgeladon e abra o terminal e de o seguinte comando:
+#Abra a pasta Elgeladon_REACT com VScode e abra o terminal e de o seguinte comando:
 
 $ npm i
 #Instalará todas as depedências necessárias para rodar o backend
   
-$ npm run dev
-# Iniciará o servidor 
-
-#Abra o arquivo index.html que está na raiz da pasta principal do projeto Projeto-Frontend-Elgeladon.
+$ npm start
+# Iniciará o servidor com a aplicação REACT
  
 ``` 
  
