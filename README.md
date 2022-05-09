@@ -1,5 +1,7 @@
 # Elgeladon_REACT
 
+## Para acessar o projeto é só clicar no link a seguir: https://elgeladon-react-7rxzq1u2z-devfernandonunes.vercel.app/
+
 ![image](https://user-images.githubusercontent.com/95880342/166344918-127751b0-fc45-4018-9737-d447d1a1a318.png)
 
 
