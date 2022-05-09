@@ -11,7 +11,9 @@
 }
 
 @media (max-width: 840px) {
-  .PaletaLista {
+  .PaletaxLista {
     grid-template-columns: 1fr;
   }
 }
+
+

@@ -1,5 +1,4 @@
 .PaletaListaItem {
-  cursor: pointer;
   font-family: "Exo";
   background: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
@@ -8,6 +7,7 @@
   display: flex;
   justify-content: space-around;
   position: relative;
+  cursor: pointer;
   transition: all 0.5s;
 }
 
@@ -17,8 +17,6 @@
     height: 180px;
   }
 }
-
-
 
 .PaletaListaItem--disable {
   box-shadow: 0px 0px 7px rgba(148, 0, 211);
@@ -53,8 +51,6 @@
   letter-spacing: 1px;
 }
 
-
-
 .PaletaListaItem__badge {
   background-color: greenyellow;
   width: 20px;
@@ -76,12 +72,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
-  
-
   width: 100%;
-
-  
 }
 
 .PaletaListaItem__titulo {
@@ -92,12 +83,7 @@
 
 .PaletaListaItem__descricao {
   font-size: 0.85em;
-
-  
-
   width: 100%;
-
-  
 }
 
 .PaletaListaItem__preco {
@@ -139,4 +125,12 @@
 .PaletaListaItem__foto {
   height: 150px;
   margin-right: -60px;
+}
+
+.PaletaListaItem--deletar {
+  box-shadow: 0px 0px 7px rgba(211, 0, 0);
+}
+
+.PaletaListaItem__tag--deletar {
+  background-color: red !important;
 }

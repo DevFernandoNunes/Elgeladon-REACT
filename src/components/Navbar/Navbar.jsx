@@ -1,11 +1,14 @@
 import { ActionMode } from "constants/index";
+
 import "./Navbar.css";
 import sacola from "assets/icons/sacola.svg";
 import paleta from "assets/icons/paleta.svg";
 import atualizar from "assets/icons/atualizar.svg";
-import logo from "assets/logo.svg";
 
-function Navbar({ createPaleta, updatePaleta, mode }) {
+import logo from "assets/logo.svg";
+import deletar from "assets/icons/deletar.svg";
+
+function Navbar({ createPaleta, updatePaleta, mode, deletePaleta, openBag }) {
   return (
     <div className="Home__header Header">
       <div className="row">
@@ -35,6 +38,20 @@ function Navbar({ createPaleta, updatePaleta, mode }) {
           </button>
           <button
             type="button"
+            className={`Opcoes__paleta Paleta ${
+              mode === ActionMode.DELETAR && "Paleta--deletar"
+            }`}
+            onClick={() => deletePaleta()}
+          >
+            <img
+              src={deletar}
+              width="40px"
+              className="Paleta__icone"
+              alt="Deletar paleta"
+            />
+          </button>
+          <button
+            type="button"
             className="Opcoes__paleta Paleta"
             onClick={() => createPaleta()}
           >
@@ -42,10 +59,10 @@ function Navbar({ createPaleta, updatePaleta, mode }) {
               src={paleta}
               width="40px"
               className="Paleta__icone"
-              alt="Adicionar Paleta"
+              alt="Adiconar paleta"
             />
           </button>
-          <div className="Opcoes__sacola Sacola">
+          <div className="Opcoes__sacola Sacola" onClick={openBag}>
             <img
               src={sacola}
               width="40px"
