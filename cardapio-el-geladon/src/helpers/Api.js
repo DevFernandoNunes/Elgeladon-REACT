@@ -9,7 +9,14 @@ const PaletaContext = {
     `${PaletaContext.paletaEndpoint()}/delete-paleta/${id}`, // Deleta um paleta
 };
 
+const SacolaContext = {
+  getSacola: () => `${PaletaContext.paletaEndpoint()}/all-carrinho`,
+  createSacola: () => `${PaletaContext.paletaEndpoint()}/create-carrinho`,
+  purchase: () => `${PaletaContext.paletaEndpoint()}/finish-carrinho`,
+};
+
 export const Api = {
-  baseUrl: "https://api-elgeladon.herokuapp.com",
+  baseUrl: "https://projeto2-api-elgeladon-fernando-nunes.onrender.com",
   ...PaletaContext, //Spred operator
+  ...SacolaContext,
 };
