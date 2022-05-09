@@ -29,15 +29,15 @@
   
 ## Critérios
   
- :heavy_check_mark: `Endpoints 1:` Lista de objetos em memória
+ :heavy_check_mark: `Endpoints 1:` Leitura de todas as paletas
   ###
-   :heavy_check_mark: `Endpoints 2:` Formatação do código utilizando o Prettier
+   :heavy_check_mark: `Endpoints 2:` Leitura de paletas individuais
   ###
-   :heavy_check_mark: `Endpoints 3:` Utilização do useState
+   :heavy_check_mark: `Endpoints 3:` Criação de paletas
   ###
-   :heavy_check_mark: `Endpoints 4:` Criação correta do componente Home.js
+   :heavy_check_mark: `Endpoints 4:` Edição de paletas por ID
   ###
-   :heavy_check_mark: `Endpoints 5:` Frontend Vanilla com os recursos
+   :heavy_check_mark: `Endpoints 5:` Exclusão de paletas por ID
   ###
 
 ## Ferramentas utilizadas
