@@ -1,4 +1,4 @@
-# Elgeladon_REACT
+# Elgeladon-REACT
 
 ## Para acessar o projeto é só clicar no link a seguir: https://elgeladon-react-7rxzq1u2z-devfernandonunes.vercel.app/
 
